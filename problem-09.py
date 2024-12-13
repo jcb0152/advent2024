@@ -1,7 +1,6 @@
 from collections import deque
 filename = "input-09.txt"
 
-# 8564936405055 high
 with open(filename, "r") as in_file:
     data = in_file.read().split("\n")
 data = data[:-1]
